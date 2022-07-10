@@ -19,9 +19,10 @@
                 ;; goog.History needs this to make it reloadable in figwheel -->
                 [:#dummy {:display "none"}]
 
-                (ana/spa-analytics "UA-77529676-1")
-                [:script {:async true :src "https://www.google-analytics.com/analytics.js"}]
-                [:script {:async true :src "/js/autotrack.js"}]
+                ;; Comment out following 3 lines to remove Google Analytics for cookie purposes
+                ;; (ana/spa-analytics "UA-77529676-1")
+                ;; [:script {:async true :src "https://www.google-analytics.com/analytics.js"}]
+                ;; [:script {:async true :src "/js/autotrack.js"}]
 
                 ;(browser-update)
                 

@@ -56,7 +56,11 @@
      [:a (core/href "https://nicor4.nicor.org.uk/chd/an_paeds.nsf/vwContent/Analysis Documents?Opendocument" :target "_blank")
       "downloaded from the NCHDA website."]]
 
-    [:ul.nav.nav-pills {:key 4
+    [:p {:key 4} "Note that Scotland is developing its own Scottish Cardiac Audit Programme and, since April 2021, 
+                  no longer participates in the National Congenital Heart Disease Audit. The last report which includes 
+                  data from The Royal Hospital for Children in Glasgow is 2017-2020."]
+
+    [:ul.nav.nav-pills {:key 5
                         :role "tablist"}
 
      [:li {:key 1
