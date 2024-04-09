@@ -26,8 +26,8 @@
     [:.col-sm-8
      [:h1 "What, why, how?"]
      [:p "This site is to help people make sense of the survival statistics about children's heart surgery published by
-     the National Congenital Heart Disease Audit (" [:a (core/href "http://www.ucl.ac.uk/nicor/audits/congenital" :target "_blank") "NCHDA"] ").  The "
-      [:a (core/href "http://www.ucl.ac.uk/nicor/audits/congenital " :target "_blank") "NCHDA"] " is managed by the
+     the National Congenital Heart Disease Audit (" [:a (core/href "https://www.nicor.org.uk/national-cardiac-audit-programme/congenital-audit-nchda/" :target "_blank") "NCHDA"] ").  The "
+      [:a (core/href "https://www.nicor.org.uk/national-cardiac-audit-programme/congenital-audit-nchda/ " :target "_blank") "NCHDA"] " is managed by the
       National Institute of Cardiovascular Outcomes Research (" [:a (core/href "https://www.ucl.ac.uk/nicor" :target "_blank") "NICOR"] ")."]
 
      ;     [:img.thumbnail.img-responsive {:src "assets/keypoint-slides.png"}]
@@ -83,7 +83,7 @@
    [:p.col-sm-12 "The NHS monitors children’s heart surgery in the UK by reviewing each hospital’s 30-day survival
    rate. The 30-day survival rate is the percentage of operations where the child survived to at least 30 days after
    their heart surgery. Ireland also submits its data to the same audit body, "
-    [:a (core/href "http://www.ucl.ac.uk/nicor/audits/congenital" :target "_blank") "NCHDA"] "."]
+    [:a (core/href "https://www.nicor.org.uk/national-cardiac-audit-programme/congenital-audit-nchda/" :target "_blank") "NCHDA"] "."]
    [:p.col-sm-12 "Approximately 3500 children under the age of 16 have heart surgery each year in the United Kingdom
    and Republic of Ireland."]]
   )
@@ -122,7 +122,7 @@
     [:p "Knowing these factors for each child allows us to predict the percentage of children within a group that will
     survive, even though we cannot predict exactly whether individual children will survive."]
 
-    [:p "The national audit body ("[:a (core/href "http://www.ucl.ac.uk/nicor/audits/congenital" :target "_blank") "NCHDA"] ")
+    [:p "The national audit body ("[:a (core/href "https://www.nicor.org.uk/national-cardiac-audit-programme/congenital-audit-nchda/" :target "_blank") "NCHDA"] ")
     uses a statistical formula to combine data on these risk factors for all the children a hospital has treated over
     the previous three years to give a predicted range for the overall proportion of survivors for that specific
     hospital and time period. The formula is also used to calculate an extended predicted range for survival for each
