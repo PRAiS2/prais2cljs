@@ -838,14 +838,14 @@
         [:a (core/href "faq/1/4") "When there is some, or strong, evidence"] " that chances of
                                survival at a hospital were lower than expected, the results are
                                checked further by the hospital and the national audit body ("
-        [:a (core/href "http://www.ucl.ac.uk/nicor/audits/congenital") "NCHDA"] ")."]
+        [:a (core/href "https://www.nicor.org.uk/national-cardiac-audit-programme/congenital-audit-nchda/") "NCHDA"] ")."]
 
        [:p "The UK and Ireland now have one of the strongest monitoring programmes in the world. Since reporting started, "
         [:a (core/href "http://www.bbc.co.uk/news/health-32162803" :target "_blank") "survival rates have been improving"] "
         and now " [:strong "over 97% of children survive to at least one month after surgery."]]]}
 
      {:title        "How are survival rates monitored?"
-      :short-answer [:p "Every year the national audit body (" [:a (core/href "http://www.ucl.ac.uk/nicor/audits/congenital" :target "_blank")
+      :short-answer [:p "Every year the national audit body (" [:a (core/href "https://www.nicor.org.uk/national-cardiac-audit-programme/congenital-audit-nchda/" :target "_blank")
                                                                 "National Congenital Heart Disease Audit"] ") publishes overall survival rates for each
                hospital for the previous 3 years. Each hospital’s survival rates are compared to what is predicted
                for that hospital by a statistical formula."]
@@ -854,10 +854,10 @@
       [:div
        [:p [:a (core/href "http://www.ucl.ac.uk/nicor/patients" :target "_blank")
             [:img.thumbnail.pull-left.w100 (core/isrc "assets/nicor.png")]]
-        "Since 2007, the national audit body (" [:a (core/href "http://www.ucl.ac.uk/nicor/audits/congenital" :target "_blank") "NCHDA"] ") has published survival rates for certain
+        "Since 2007, the national audit body (" [:a (core/href "https://www.nicor.org.uk/national-cardiac-audit-programme/congenital-audit-nchda/" :target "_blank") "NCHDA"] ") has published survival rates for certain
                                " [:a (core/href "https://nicor4.nicor.org.uk/CHD/an_paeds.nsf/WBenchmarksYears?openview&RestrictToCategory=2014&start=1&count=500"
                                                 :target "_blank") "types of procedure"] " (now over 70 different procedures) at each hospital. But the "
-        [:a (core/href "http://www.ucl.ac.uk/nicor/audits/congenital") "NCHDA"] " did not
+        [:a (core/href "https://www.nicor.org.uk/national-cardiac-audit-programme/congenital-audit-nchda/") "NCHDA"] " did not
                                publish overall survival rates for each hospital until 2013, because there was no clear way to put
                                overall survival rates for each hospital into context
                                (see " [:a (core/href "intro") "What, Why and How?"] ").
@@ -880,8 +880,8 @@
 
        [:p "Operations that occur within 30 days of each other are treated as a single operation when reporting overall
        survival."]
-       [:p [:a (core/href "http://www.ucl.ac.uk/nicor/audits/congenital") "NCHDA"] " publishes all its reports "
-        [:a (core/href "https://nicor4.nicor.org.uk/chd/an_paeds.nsf/vwContent/Analysis%20Documents?Opendocument" :target "_blank") "here"] ". "]]}
+       [:p [:a (core/href "https://www.nicor.org.uk/national-cardiac-audit-programme/congenital-audit-nchda/") "NCHDA"] " publishes all its reports "
+        [:a (core/href "https://www.nicor.org.uk/national-cardiac-audit-programme/previous-reports/congenital-heart-disease-2/" :target "_blank") "here"] ". "]]}
 
      {:title        "Where is this data from?"
       :short-answer "The data on each child’s operation and what was wrong with their heart comes from the hospital’s
@@ -892,12 +892,12 @@
       [:div
        [:p "Each hospital in the UK and Ireland must collect data on every surgery or intervention carried out on a
        child under 16 years old. Every three months, hospitals must submit this data to the national audit body, "
-        [:a (core/href "http://www.ucl.ac.uk/nicor/audits/congenital" :target "_blank") "NCHDA"] " (The National Institute for
+        [:a (core/href "https://www.nicor.org.uk/national-cardiac-audit-programme/congenital-audit-nchda/" :target "_blank") "NCHDA"] " (The National Institute for
         Cardiovascular Outcomes Research). NCHDA sets out exactly what data is collected and each hospital undergoes
         independent checks of the quality of their submitted data. NCHDA also reports to the UK Department of Health,
         the Care Quality Commission (CQC) and other NHS regulatory bodies."]
 
-       [:p [:a (core/href "http://www.ucl.ac.uk/nicor/audits/congenital" :target "_blank") "NCHDA"]
+       [:p [:a (core/href "https://www.nicor.org.uk/national-cardiac-audit-programme/congenital-audit-nchda/" :target "_blank") "NCHDA"]
         " tracks the survival of these children by linking to the national register of deaths
                                using patients’ NHS number (in England and Wales) and also from hospital records."]]}]}
 
@@ -1085,7 +1085,7 @@
 
        [:p "The NCHDA also publishes additional reports from any hospital which has a survival
                               rate below its predicted range. These are "
-        [:a (core/href "https://nicor4.nicor.org.uk/chd/an_paeds.nsf/vwContent/Analysis%20Documents?Opendocument") "available here"]
+        [:a (core/href "https://www.nicor.org.uk/national-cardiac-audit-programme/previous-reports/congenital-heart-disease-2/") "available here"]
         ", along with the NCHDA annual reports."]]}
 
      {:title        "What actually happens if a hospital’s survival rate is above its predicted range?"
@@ -1135,10 +1135,10 @@
       :body
       [:div
        [:p "The data come from the National Congenital Heart Disease Audit ("
-        [:a (core/href "http://www.ucl.ac.uk/nicor/audits/congenital" :target "_blank") "NCHDA"] ")
+        [:a (core/href "https://www.nicor.org.uk/national-cardiac-audit-programme/congenital-audit-nchda/" :target "_blank") "NCHDA"] ")
                                which is managed by the National Institute of Cardiovascular Outcomes Research ("
         [:a (core/href "https://www.ucl.ac.uk/nicor") "NICOR"] "). "
-                               ;" which collects national data for the " [:a (core/href "http://www.ucl.ac.uk/nicor/audits/congenital" :target "_blank") "UK National Heart Disease Audits"] "."
+                               ;" which collects national data for the " [:a (core/href "https://www.nicor.org.uk/national-cardiac-audit-programme/congenital-audit-nchda/" :target "_blank") "UK National Heart Disease Audits"] "."
         "All hospitals in the UK and Ireland performing heart
        surgery in children have to submit their data in a standard format to NCHDA. All hospitals are independently
        audited each year as part of a data validation process (to check the quality of the data submitted) to ensure
@@ -1359,7 +1359,7 @@
        [:p "For reporting technical problems, please email "
         [:a {:href "mailto:technical@childrensheartsurgery.info"} "technical@childrensheartsurgery.info."]]
        [:p "For questions about the audit process or any individual hospital's results, please contact the national audit body "
-        [:a (core/href "http://www.ucl.ac.uk/nicor/audits/congenital " :target "_blank") "NCHDA"]]]}
+        [:a (core/href "https://www.nicor.org.uk/national-cardiac-audit-programme/congenital-audit-nchda/ " :target "_blank") "NCHDA"]]]}
 
      {:title    "How we developed this site"
       :glossary []
