@@ -48,19 +48,23 @@
     [:h1 {:key 1} "Explore the data"]
 
     [:p {:key 2} "In this section you can explore the overall hospital survival statistics published by the National
-                 Congenital Heart Disease Audit (" [:a (core/href "http://www.ucl.ac.uk/nicor/audits/congenital" :target "_blank") "NCHDA"] ").
+                 Congenital Heart Disease Audit (" [:a (core/href "https://www.nicor.org.uk/national-cardiac-audit-programme/congenital-audit-nchda/" :target "_blank") "NCHDA"] ").
                  The data covers all hospitals in the UK and Ireland that performed heart surgery in children
                  (0-16 years old). NCHDA update the data annually and each report covers a 3 year period."]
 
     [:p {:key 3} "Data on this site comes from the NCHDA annual reports, all of which can be "
-     [:a (core/href "https://nicor4.nicor.org.uk/chd/an_paeds.nsf/vwContent/Analysis Documents?Opendocument" :target "_blank")
+     [:a (core/href "https://www.nicor.org.uk/national-cardiac-audit-programme/previous-reports/congenital-heart-disease-2/" :target "_blank")
       "downloaded from the NCHDA website."]]
 
     [:p {:key 4} "Note that Scotland is developing its own Scottish Cardiac Audit Programme and, since April 2021, 
                   no longer participates in the National Congenital Heart Disease Audit. The last report which includes 
                   data from The Royal Hospital for Children in Glasgow is 2017-2020."]
 
-    [:ul.nav.nav-pills {:key 5
+    [:p {:key 5} "Also note that from the reporting period 2020-2023, the Royal Brompton Hospital (NHB)
+                  paediatric congenital cardiac service has merged with The Evelina Children's hospital (GUY).
+                  The code used in NICOR reports has changed from GUY to GUY/GSTT."]
+
+    [:ul.nav.nav-pills {:key 6
                         :role "tablist"}
 
      [:li {:key 1
